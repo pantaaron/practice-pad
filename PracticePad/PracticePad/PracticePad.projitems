@@ -10,5 +10,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Character.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mocks\PartyMock.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Party.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Session\LoginSession.cs" />
   </ItemGroup>
+  <ItemGroup />
 </Project>

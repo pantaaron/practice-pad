@@ -4,8 +4,16 @@ using System.Text;
 
 namespace PracticePad
 {
-	public class Character
+	internal class Character
 	{
-		public string Name { get; set; }
+		internal string Name { get; set; }
+		internal Class Class { get; set; }
+		internal List<Item> Equipment { get; set; }
+		internal List<Item> PotionBelt { get; set; }
+	}
+
+	public enum Class
+	{
+		Alchemist
 	}
 }

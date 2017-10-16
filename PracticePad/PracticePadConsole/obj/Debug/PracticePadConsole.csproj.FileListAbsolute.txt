@@ -1,0 +1,6 @@
+/Users/aaronclements/Documents/GitHub/practice-pad/PracticePad/PracticePadConsole/bin/Debug/PracticePadConsole.exe
+/Users/aaronclements/Documents/GitHub/practice-pad/PracticePad/PracticePadConsole/bin/Debug/PracticePadConsole.pdb
+/Users/aaronclements/Documents/GitHub/practice-pad/PracticePad/PracticePadConsole/obj/Debug/PracticePadConsole.csprojResolveAssemblyReference.cache
+/Users/aaronclements/Documents/GitHub/practice-pad/PracticePad/PracticePadConsole/obj/Debug/PracticePadConsole.csproj.CoreCompileInputs.cache
+/Users/aaronclements/Documents/GitHub/practice-pad/PracticePad/PracticePadConsole/obj/Debug/PracticePadConsole.exe
+/Users/aaronclements/Documents/GitHub/practice-pad/PracticePad/PracticePadConsole/obj/Debug/PracticePadConsole.pdb
