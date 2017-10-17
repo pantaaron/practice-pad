@@ -4,6 +4,10 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="PracticePad" t="IncludeRecursive">
+        <e p="BattleMap" t="Include">
+          <e p="BattleMap.cs" t="Include" />
+          <e p="BattleTile.cs" t="Include" />
+        </e>
         <e p="Character.cs" t="Include" />
         <e p="Item.cs" t="Include" />
         <e p="Mocks" t="Include">

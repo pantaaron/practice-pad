@@ -9,6 +9,8 @@
     <Import_RootNamespace>PracticePad</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BattleMap\BattleMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BattleMap\BattleTile.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Character.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Item.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mocks\PartyMock.cs" />

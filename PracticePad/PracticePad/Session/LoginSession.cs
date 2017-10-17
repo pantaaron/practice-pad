@@ -14,5 +14,11 @@
 			}
 			return Result.Failure;
 		}
+
+		public enum Result
+		{
+			Success,
+			Failure
+		}
 	}
 }

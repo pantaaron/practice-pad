@@ -4,12 +4,24 @@ using System.Text;
 
 namespace PracticePad
 {
-	internal class Character
+	public class Character
 	{
-		internal string Name { get; set; }
-		internal Class Class { get; set; }
-		internal List<Item> Equipment { get; set; }
-		internal List<Item> PotionBelt { get; set; }
+		public Guid Id { get; set; }
+		public string Name { get; set; }
+		public Class Class { get; set; }
+		public List<Item> Equipment { get; set; }
+		public List<Item> PotionBelt { get; set; }
+		public Guid PartyId { get; private set; }
+
+		public Character()
+		{
+			Id = Guid.NewGuid();
+		}
+
+		public void SetParty(Guid partyId)
+		{
+			PartyId = partyId;
+		}
 	}
 
 	public enum Class
